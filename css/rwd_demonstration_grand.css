@@ -1,0 +1,108 @@
+/* Fonts */
+    
+    [class*="entypo-"]:before {
+        /*visibility: hidden;*/
+    }
+
+/* Général */
+
+h1, p{
+    font-size: 1.5rem;
+    padding: 0 2.5%;
+}
+
+/* Entete et menu */
+
+.entete_et_menu{
+    font-size: 0;
+    height: 120px;
+}
+
+.entete, .menu{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+
+.entete{
+    font-size: 2.5rem;
+    width: 25%;
+}
+
+.entete:before{
+    vertical-align: -90%;
+}
+
+.menu{
+    width: 75%;
+}
+
+.menu a{
+    display: block;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.menu a> li{
+    padding-left: 5%;
+}
+
+.menu> [title="Paragraphes"]> li:after{
+    content: " Paragraphes";
+}
+
+.menu> [title="Images"]> li:after{
+    content: " Images";
+}
+
+.menu> [title="Fin"]> li:after{
+    content: " Fin";
+}
+
+/* Images */
+
+.contenus> .contenu{
+    display: inline-block;
+    margin: 0.5%;
+    width: 32.3333%;
+}
+
+.images> img{
+    max-width: 200px;
+}
+
+/* Media queries */
+
+@media (min-width: 900px) {
+    
+    /* Système de grille */
+
+    .entete_et_menu, .content{
+        width: 80%;
+        margin: 1% 10%;
+    }
+    
+    /* Entete et menu */
+    
+    .entete:before{
+        font-size: 2.25rem;
+        content: "Responsive Web Design";
+    }
+    
+    .entete{
+        width: 60%;
+    }
+    
+    .menu{
+        width: 40%;
+    }
+    
+@media (min-width: 1300px) {
+    
+    /* Système de grille */
+
+    .entete_et_menu, .content{
+        width: 1040px;
+        margin: 1% auto;
+    }
+}

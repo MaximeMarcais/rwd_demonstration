@@ -1,0 +1,41 @@
+/* Général */
+
+body{
+    font-family: ProximaNova-Regular;
+    font-size: 100%;
+    margin: 0;
+    height: 750px;
+    background-color: rgb(241,106,153);
+}
+
+/* Système de grille */
+
+.entete_et_menu, .content{
+    width: 95%;
+    margin: 1% 2.5%;
+}
+
+/* Entete et menu */
+
+.entete, .menu{
+    padding: 0;
+}
+
+.entete_et_menu{
+    height: 10%;
+}
+
+.entete{
+    height: 80%;
+    background-color: rgb(83,137,214);
+}
+
+.menu{
+    height: 20%;
+    background-color: rgb(116,193,74);
+}
+
+.content{
+    height: 60%;
+    background-color: rgb(225,157,64);
+}

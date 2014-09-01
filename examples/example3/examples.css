@@ -1,0 +1,52 @@
+/* Général */
+
+body{
+    font-family: ProximaNova-Regular;
+    font-size: 100%;
+    margin: 0;
+    height: 750px;
+    background-color: rgb(241,106,153);
+}
+
+/* Système de grille */
+
+.entete_et_menu, .content{
+    width: 95%;
+    margin: 1% 2.5%;
+}
+
+/* Entete et menu */
+
+.entete_et_menu{
+    font-size: 0;
+    height: 120px;
+}
+
+.entete, .menu{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+
+.entete{
+    width: 25%;
+}
+
+.menu{
+    width: 75%;
+}
+
+/* Entete et menu */
+
+.entete{
+    background-color: rgb(83,137,214);
+}
+
+.menu{
+    background-color: rgb(116,193,74);
+}
+
+.content{
+    height: 60%;
+    background-color: rgb(225,157,64);
+}

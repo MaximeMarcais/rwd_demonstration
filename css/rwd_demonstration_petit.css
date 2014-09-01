@@ -1,0 +1,59 @@
+/* Général */
+
+.long{
+    font-size: 0;
+    visibility: hidden;
+}
+
+h1, p{
+    font-size: 1rem;
+    padding: 0 2.5%;
+}
+
+/* Entete et menu */
+
+.entete_et_menu{
+    font-size: 0;
+}
+
+.entete{
+    display: block;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.menu a{
+    font-size: 1.8rem;
+    width: 33.3333%;
+    display: inline-block;
+}
+
+/* Images */
+
+.images> img{
+    max-width: 150px;
+}
+
+@media (min-width: 480px) {
+    
+    /* Fonts */
+    
+    [class*="entypo-"]:before {
+        content: none;
+    }
+    
+    /* Système de grille */
+        
+    .menu> [title="Paragraphes"]> li:after{
+        content: "Paragraphes";
+    }
+
+    .menu> [title="Images"]> li:after{
+        content: "Images";
+    }
+
+    .menu> [title="Fin"]> li:after{
+        content: "Fin";
+    }
+
+}
