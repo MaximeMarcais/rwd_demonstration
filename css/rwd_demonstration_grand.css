@@ -97,7 +97,7 @@ h1, p{
         width: 40%;
     }
     
-@media (min-width: 1300px) {
+@media (max-width: 901px) and (min-width: 1300px) {
     
     /* Système de grille */
 
